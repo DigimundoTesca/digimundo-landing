@@ -1,243 +1,382 @@
-<!DOCTYPE HTML>
-<html lang="es">
+<!DOCTYPE html> 
+<html> 
 <head>
-	<title>Digimundo | Asesoría tecnológica</title>
-	<!-- Icons -->
-	<link rel="shortcut icon" href="favicon.ico" type="images/icon/x-icon" />
-	<link rel="apple-touch-icon" href="images/icon/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png" />
-	<!-- Settings -->
-	<meta charset="utf-8" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo/logo.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="Ponemos a su disposición a nuestro experimentado equipo, para ofrecerle una solución integral a los requerimientos de su empresa." />
-	<meta name="keywords" content="internet of things, asesoria digital, web development, app programing, ios android" />
-	<meta name="author" content="Digimundo Technologies" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main260417.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <title>Digimundo Technologies</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Ponemos a su disposición a nuestro experimentado equipo, para ofrecerle una solución integral a los requerimientos de su empresa." />
+  <meta name="keywords" content="internet of things, asesoria digital, web development, app programing, ios android" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="author" content="Digimundo Technologies" />
+  <!-- Icons -->
+  <link rel="shortcut icon" href="favicon.ico" type="icon/x-icon"/>
+  <link rel="apple-touch-icon" href="statics/icon/apple-touch-icon.png"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="statics/icon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="statics/icon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="statics/icon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="statics/icon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="statics/icon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="statics/icon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="statics/icon/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="statics/icon/apple-touch-icon-180x180.png" />
+  <!-- Normalize -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Fontawesome Icon Fonts -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Master CSS -->
+  <link rel="stylesheet" href="statics/css/ihover.css">
+  <link rel="stylesheet" href="statics/css/master.css">
 </head>
 <body>
+  <div id="navbar-main">
+    <div id="navbar-container">
+      <img id="logo-nav" src="statics/images/logo.png" alt="Digimundo LOGO">
+      <div class="nav-content">
+        <button onclick="showMenu()" class="dropbtn icon-container fa fa-bars"></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">INICIO</a>
+          <a href="#services">SERVICIOS</a>
+          <a href="#about">NOSOTROS</a>
+          <a href="#projects-squares">PROYECTOS</a>
+          <!-- <a href="#team">EQUIPO</a> -->
+          <a href="#contact">CONTACTO</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+  <header> <!-- Home section -->
+    <div id="home">
+      <img src="statics/images/home.png" alt="Home background">
+      <div class="logo-container">
+        <img src="statics/images/logo.png" alt="">
+      </div>
+    </div>
+  </header>  <!-- /Home section -->
+  <main>
+    <div class="container">  
+      <section id="services">  <!-- SERVICIOS -->
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-logo.png" alt="Services separator">
+          </div>
+          <h2>SERVICIOS</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, cum.</p>
+        </div>
+        <div class="services-content">
+          <img class="service-image" src="statics/images/service.png" alt="Servicer image">
+          <div class="service-group">
+            <div class="service">
+              <img src="statics/images/boton.png" alt="Service circle">
+              <div class="service-text">
+                <h4>Internet of things</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="statics/images/boton.png" alt="Service circle">
+              <div class="service-text">
+                <h4>Web apps</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="statics/images/boton.png" alt="Service circle">
+              <div class="service-text">
+                <h4>Desarrollo web</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+            <div class="service">
+              <img src="statics/images/boton.png" alt="Service circle">
+              <div class="service-text">
+                <h4>ios/android apps</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  <!-- /SERVICIOS -->
+      <section id="about">  <!-- /ABOUT -->
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-logo.png" alt="Services separator">
+          </div>  
+          <h2>Nosotros</h2>
+        </div>
+        <div id="us">
+          <div class="mision">
+            <h3>Misión</h3>
+            <p>Evolucionar empresas e instituciones a través de empoderar el mundo Tecnológico - Dígital (Software, Hardware, Telecom) en sus procesos y sistemas.</p>
+          </div>
+          <div class="vision">
+            <h3>Visión 2018</h3>
+            <p>Fungir como proveedores y asesores tecnológicos de las principales instituciones y empresas Mexicanas en CDMX</p>
+          </div>
+        </div>
+      </section>  <!-- /ABOUT -->
+      <section id="projects">  <!-- /PROYECTOS -->
+        <img src="statics/images/fondo.png" alt="Main background">
+        <h2>Cloud Kitchen</h2>
+        <div class="projects-content">
+          <div class="project-left">
+            <div class="project">
+              <img src="statics/images/icono01.png" alt="Service circle">
+              <div class="project-text">
+                <h4>Clean Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+            <div class="project">
+              <img src="statics/images/icono02.png" alt="Service circle">
+              <div class="project-text">
+                <h4>Clean Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-center">
+            <img src="statics/images/screen.png" alt="Screen image">
+          </div>
+          <div class="project-right">
+            <div class="project">
+              <img src="statics/images/icono03.png" alt="Service circle">
+              <div class="project-text">
+                <h4>Clean Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+            <div class="project">
+              <img src="statics/images/icono04.png" alt="Service circle">
+              <div class="project-text">
+                <h4>Clean Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quaerat?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects-squares">  <!-- /PROYECTOS -->
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-logo.png" alt="Services separator">
+          </div>  
+          <h2>Proyectos</h2>
+          <p class="subtitle">Toca las imágenes para obtener más información.</p>
+        </div>
+        <div class="grid">
+          <figure class="effect-chico">
+            <img src="statics/images/project6.jpg" alt="Project 1"/>
+            <figcaption>
+              <h2>Cloud <span>Kitchen</span></h2>
+              <p>Cocina inteligente.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-chico">
+            <img src="statics/images/project5.jpg" alt="img04"/>
+            <figcaption>
+              <h2>Mobile <br>Cloud <span>Kitchen</span></h2>
+              <p>Entregas simplificadas.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-chico">
+            <img src="statics/images/project1.jpg" alt="img04"/>
+            <figcaption>
+              <h2>Web <span>Development</span></h2>
+              <p>Tu estilo. Ti imagen.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-chico">
+            <img src="statics/images/project4.jpg" alt="img04"/>
+            <figcaption>
+              <h2>Soluciones <span>Integrales</span></h2>
+              <p>Hechas a tú medida.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-chico">
+            <img src="statics/images/project3.jpg" alt="img04"/>
+            <figcaption>
+              <h2>Cloud <span>Kitchen</span></h2>
+              <p>Cocina inteligente.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-chico">
+            <img src="statics/images/project2.jpg" alt="img04"/>
+            <figcaption>
+              <h2>Cloud <span>Kitchen</span></h2>
+              <p>Cocina inteligente.</p>
+              <a href="#">View more</a>
+            </figcaption>     
+          </figure>
+        </div>
+      </section>
+      <!-- /EQUIPO -->
+<!--       <section id="team">  
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-logo.png" alt="Services separator">
+          </div>  
+          <h2>Equipo</h2>
+        </div>
+        <div class="team-container">
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Josué Rodriguez</h3>
+                <p>Digimundo CEO.</p>
+              </div>
+            </a>
+          </div>
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Ramses Martínez</h3>
+                <p>Full stack developer.</p>
+              </div>
+            </a>
+          </div>
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Ricardo </h3>
+                <p>Full stack developer.</p>
+              </div>
+            </a>
+          </div>
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Ariel Molina</h3>
+                <p>Frontend developer.</p>
+              </div>
+            </a>
+          </div>
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Hans Arizona</h3>
+                <p>Electronic division.</p>
+              </div>
+            </a>
+          </div>
+          <div class="ih-item square team colored effect4">
+            <a href="#">
+              <div class="img"><img src="statics/images/team.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Basilio Anaya</h3>
+                <p>Analytics & Learning Developer.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section> -->  
+      <!-- /EQUIPO -->
+      <section id="clients">  <!-- /CLIENTES -->
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-blanco.png" alt="Services separator">
+          </div>  
+          <h2>Nuestros clientes.</h2>
+        </div>
+        <div class="client-container">
+          <img class="client-imgage" src="statics/images/cliente01.png" alt="client image">
+          <img class="client-imgage" src="statics/images/cliente02.png" alt="client image">
+          <img class="client-imgage" src="statics/images/cliente04.png" alt="client image">
+        </div>
+      </section>  <!-- /CLIENTES -->
+      <section id="contact">  <!-- /CONTACTO -->
+        <div class="services-info">
+          <div class="separator sep-services">
+            <img src="statics/images/head-logo.png" alt="Services separator">
+          </div>  
+          <h2>Contacto</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, magnam..</p>
+        </div>
+        <div class="columns">
+          <div class="info">
+            <ul>
+              <li>
+                <img src="statics/images/contacto01.png" alt="Contact images">
+                <p class="contactText">53985419 / 53985480<br>11063976 Ext. 114</p>
+              </li>
+              <li>
+                <img src="statics/images/contacto02.png" alt="Contact images">
+                <p class="contactText">digimundo@tescacorporation.com</p>
+              </li>
+              <li>
+                <img src="statics/images/contacto03.png" alt="Contact images">
+                <p class="contactText">Circuito Muesos #29 Ciudad Satélite, Tlalnepantla Estado de México.</p>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="contactForm">
+            <form method="post" action="contact.php">
+              <div class="form-group ">
+                <label for="name" class="sr-only">Nombre</label>
+                <input name="name" id="name" class="form-control" placeholder="Nombre" type="text">
+              </div>
+              <div class="form-group ">
+                <label for="email" class="sr-only">Correo</label>
+                <input name="email" id="email" class="form-control" placeholder="Correo" type="email">
+              </div>
+              <div class="form-group">
+                <label for="subject" class="sr-only">Asunto</label>
+                <input name="subject" id="subject" class="form-control" placeholder="Asunto" type="text">
+              </div>
+              <div class="form-group ">
+                <label for="message" class="sr-only">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="form-group ">
+                <input class="btn btn-primary" name="submit" value="Enviar" type="submit">
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </section>  <!-- /CONTACTO -->
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <p class="copy">© Copyright 2017.</p>
+      <ul class="socialMenu">
+        <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<a href="index.html" class="logo"><strong>Digimundo</strong> <span>Technologies</span></a>
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-		</header>
 
-		<!-- Menu -->
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="projects.html">Proyectos</a></li>
-				<li><a href="team.html">Equipo</a></li>
-				<li><a href="cloud.html" class="button fit">Cloud Kitchen</a></li>
-				<li><a href="mock.html" class="button fit">Mobile Cloud Kitchen</a></li>
-				<li><a href="web.html" class="button fit">Web Development</a></li>
-			</ul>
-		</nav>
-
-		<!-- Banner -->
-		<section id="banner" class="main major">
-			<div class="inner">
-				<header class="major">
-					<h1>Evolución Inmaterial</h1>
-				</header> 
-				<div class="content">
-					<p>Construyendo el mundo ideal</p> 
-								<!-- <ul class="actions">
-									<li><a href="#one" class="button next scrolly">Conócenos</a></li>
-								</ul> -->
-							</div>
-						</div>
-					</section>
-
-					<!-- Main -->
-					<div id="main">
-
-						<!-- Mision y vision -->
-						<section>
-							<div class="inner">
-								<header class="major">
-									<h2>Misión y Visión</h2>
-								</header>
-								<h3>Misión</h3>
-								<p>Empoderar el mundo digital</p>
-								<h3>Visión 2018</h3>
-								<p>Ser la mejor opción en software personalizado para PyMes en la zona Norte de la ciudad.</p>
-									<!-- <ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
-									</ul> -->
-								</div>
-							</section>
-
-							<section>
-								<div class="inner">
-									<header class="major">
-										<h2>Nuestros Proyectos</h2>
-									</header>
-									<p>En esta sección te mostramos los proyectos realizados en <strong>DIGIMUNDO</strong>, puedes conocer más dando click en cada uno de ellos. <br>Te invitamos a que visites la sección <a href="projects.html" >Proyectos</a> y conocelos todos.</p>
-								</div>
-							</section>
-
-							<!-- Proyectos -->
-							<section id="two" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/CK.png" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="cloud.html" class="link">Cloud Kitchen.</a></h3>
-										<p>Cocina inteligente.</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/mock/mobile1.jpeg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="mock.html" class="link">Mobile Cloud Kitchen</a></h3>
-										<p>Entregas simplificadas.</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/1.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="web.html" class="link">Web Developmnet.</a></h3>
-										<p>Tu estilo. Tu imagen.</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/medida.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="projects.html" class="link">Soluciones integrales</a></h3>
-										<p>Hechas a tú medida.</p>
-									</header>
-								</article>
- 								<!--<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="projects.html" class="link">Consequat</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/bck.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="projects.html" class="link">Etiam</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header> -->
-								</article>
-							</section>
-						</div>
-
-						<section>
-							<div class="inner">
-								<header class="major">
-									<h2>Equipo Digimundo</h2>
-								</header>
-								<img src="images/team.png" width="100%"/>
-								<p>En la siguiente <strong>sección</strong> te presentamos a nuestros integrantes.</p>
-								<ul class="actions">
-									<li><a href="team.html" class="button next scrolly">El equipo</a></li>
-								</ul>
-							</div>
-						</section>
-
-						<!-- Contact -->
-						<section id="contact">
-							<div class="inner">
-								<section>
-									<form method="post" action="contact.php">
-										<div class="field half first">
-											<label for="name">Nombre</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Mensaje</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" name="submit" value="Enviar" class="special" /></li>
-											<li><input type="reset" value="Limpiar" /></li>
-										</ul>
-									</form>
-								</section>
-								<section class="split">
-									<section>
-										<div class="contact-method">
-											<span class="icon alt fa-envelope"></span>
-											<h3>Email</h3>
-											<a href="mailto:digimundo@tescacorporation.com">digimundo@tescacorporation.com</a>
-										</div>
-									</section>
-									<section>
-										<div class="contact-method">
-											<span class="icon alt fa-phone"></span>
-											<h3>Teléfono</h3>
-											<span>53985410 / 53985480 / 11063976 <br>Ext. 114</span>
-										</div>
-									</section>
-									<section> 
-										<div class="contact-method">
-											<span class="icon alt fa-home"></span>
-											<h3>Dirección</h3>
-											<span>Dirección: Circuito Museos #29<br>Ciudad Satélite, Tlalnepantla<br>Estado de México</span>
-										</div>
-									</section>
-								</section>
-							</div>
-						</section>
-
-						<!-- Footer -->
-						<footer id="footer">
-							<div class="inner">
-								<ul class="icons">
-									<li><a href="#" class="icon alt fa-home"><span class="label">Digimundo</span></a></li>
-									<li><a rel="nofollow" target="_blank" href="https://www.facebook.com/groups/1668209753473372/?fref=ts" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a rel="nofollow" target="_blank" href="https://github.com/DigimundoTesca" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-								<ul class="copyright">
-									<li>Una compañia de:</li><li><a href="http://www.tescacorporation.com/">Tesca Corporation</a></li>
-								</ul>
-							</div>
-						</footer>
-
-					</div>
-
-					<!-- Scripts -->
-					<script src="assets/js/jquery.min.js"></script>
-					<script src="assets/js/jquery.scrolly.min.js"></script>
-					<script src="assets/js/jquery.scrollex.min.js"></script>
-					<script src="assets/js/skel.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-					<script src="assets/js/main.js"></script>
-
-				</body>
-				</html>
+  <!-- Scripts section -->
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+  <!-- Prefixfree -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js" type="text/javascript"></script>
+  <!-- Main JS file -->
+  <script src="statics/js/main.js"></script>
+</body>
+</html>

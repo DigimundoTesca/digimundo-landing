@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /images/
-Allow: /*.js$
-Allow: /*.css$
-Sitemap: https://www.digimundo.com.mx/sitemap.xml
